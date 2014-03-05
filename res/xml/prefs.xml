@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:key="login" android:title="@string/titleLogin" android:summary="@string/descLogin"></EditTextPreference>
+    <EditTextPreference android:key="password" android:title="@string/titlePassword" android:summary="@string/descPassword"></EditTextPreference>
+    <CheckBoxPreference android:key="collabCheck1" android:summary="@string/descCollab" android:title="@string/titleColab"></CheckBoxPreference>
+    <EditTextPreference android:key="collabEmail1" android:title="@string/titleCollabEmail" android:summary="@string/descCollabEmail"></EditTextPreference>
+    <CheckBoxPreference android:title="@string/titleColab" android:key="collabCheck2" android:summary="@string/descCollab"></CheckBoxPreference>
+    <EditTextPreference android:key="collabEmail2" android:title="@string/titleCollabEmail" android:summary="@string/descCollabEmail"></EditTextPreference>
+    <CheckBoxPreference android:title="@string/titleColab" android:key="collabCheck3" android:summary="@string/descCollab"></CheckBoxPreference>
+    <EditTextPreference android:key="collabEmail3" android:title="@string/titleCollabEmail" android:summary="@string/descCollabEmail"></EditTextPreference>
+</PreferenceScreen>

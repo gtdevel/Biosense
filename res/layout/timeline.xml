@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content" 
+  android:orientation="vertical"
+  >
+	<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="match_parent"
+  	android:layout_height="wrap_content" 
+  	android:orientation="horizontal"
+  	android:background="#44ffffff">    
+	    <TextView android:text="Bluetooth Connection: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textSize="15dp"
+	    	android:layout_margin="3dp">
+	  	</TextView>
+	  	<TextView android:text="Not connected" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:id="@+id/textConnectivityStatus"
+	    	android:textSize="15dp"
+	    	android:layout_margin="3dp"
+	    	android:freezesText="true">
+	  	</TextView>
+	</LinearLayout>
+	<View   android:id="@+id/firstDivider"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="#22ffffff" />
+	<LinearLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="match_parent"
+  	android:layout_height="wrap_content" 
+  	android:orientation="horizontal"
+  	android:background="#44ffffff">   
+		<TextView android:text="GDocs Connection: " 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:textSize="15dp"
+	    	android:layout_margin="3dp">
+		</TextView>
+		<TextView android:text="Not connected" 
+	    	android:layout_width="wrap_content" 
+	    	android:layout_height="wrap_content"
+	    	android:id="@+id/textGoogleStatus"
+	    	android:textSize="15dp"
+	    	android:layout_margin="3dp"
+	    	android:freezesText="true">
+	  	</TextView>
+	</LinearLayout>
+	<View   android:id="@+id/firstDivider"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="#22ffffff" />
+    
+    <TextView android:text="Timeline of Measurements" 
+    android:id="@+id/TimelineTitle" 
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:gravity="center" android:textSize="25dp"
+    android:background="#44ffffff">
+    </TextView>
+    
+	<View   android:id="@+id/firstDivider"
+        android:layout_height="1dp"
+        android:layout_width="fill_parent"
+        android:background="#22ffffff" />
+    <ListView android:stackFromBottom="false"
+    android:id="@+id/listViewMeasure" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="1.0"></ListView>
+    <Button android:text="Graphical View" 
+    android:id="@+id/buttonGraph"
+    android:textSize="20dp" 
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    ></Button>
+ </LinearLayout>
